@@ -6,6 +6,7 @@ h_bar: float = h / tau  # J s
 c: float = 299_792_458  # m s^-1
 k: float = 1.380_649e-23  # J K^-1
 sb: float = 5.670_374_419e-8  # W m^-2 K^-4
+deg_rad: float = tau / 360  # ° radian^-1
 
 # measured astronomical constants
 T_SUN: float = 5773  # K
